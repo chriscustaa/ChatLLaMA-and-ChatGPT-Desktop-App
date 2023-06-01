@@ -4,21 +4,11 @@ import traceback
 import io
 import re
 import math
-import pyperclip
 import datetime
-import markdown2
 import requests
-import torch
 import time
-import torchaudio
 import json
-import pyglet
-import sounddevice as sd
-from pypdf import PdfReader
 from io import BytesIO
-from transformers import pipeline
-from transformers import AutoTokenizer
-from PyQt5.QtWidgets import QApplication, QAbstractItemView, QShortcut, QMainWindow, QDialog, QVBoxLayout, QTextEdit, QLineEdit, QPushButton, QLabel, QWidget, QCheckBox, QListWidget, QListWidgetItem, QSizePolicy, QInputDialog, QHBoxLayout, QComboBox, QMessageBox, QTextEdit
 from PyQt5.QtGui import QPixmap, QMouseEvent, QKeySequence, QImage
 from PyQt5.QtCore import Qt, pyqtSignal, QThread, QSize
 from PyQt5.QtGui import QKeySequence
